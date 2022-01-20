@@ -353,4 +353,5 @@ if model == "all":
     model = models.model
 else:
     model = models.model_rare
-check_all(troll, "20.01.2022", "1", park=[5], model=model)
+date = input("date dd.mm.yyyy")
+check_all(troll, date, "1", park=[5], model=model)
